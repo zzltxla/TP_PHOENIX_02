@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/*=================
+body region ends here
+====================*/
+
+header {
+    width: 100%;
+    height: 5em;
+    background-color: #75c9c8;
+}
+nav {
+    padding-left: 15%;
+}
+ul {
+    display: flex;
+    gap: 2em;
+}
+li {
+    padding-top: 2em;
+    flex-direction: row;
+    float: right;
+    transition: .3s ease;
+}
+li:hover {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.redirection-link {
+    color: black;
+}
+#phoenix-icon {
+    margin-top: 0.3em;
+}
+/*====================
+header region ends here
+======================*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#banner {
+    margin: 0 auto;
+    object-fit: fill;
+    max-width: 80%;
+    height: 25em;
+}
+#banner-img {
+    margin-top: 2em;
+    width: 100%;
+    height: 20em;
+}
+/*=====================
+banner region ends here
+=======================*/
+
+#choice-info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 2%;
+    margin-bottom: 3em;
+    width: 100%;
+}
+/*==========================
+info and choices container region enbds here
+============================*/
+
+#choice{
+    display: inline-block;
+    width: 25%;
+    height: 19em;
+    border: 1px solid;
+    border-color: #75c9c8;
+    border-radius: 5px;
+    background-color: white;
+}
+.choice-img {
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+}
+#choice-title {
+    display: block;
+    padding: 8% 0% 7.9% 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+#price-container {
+    width: 100%;
+    height: 3%;
+    border-top: 1px solid;
+    border-color: #75c9c8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #d1ecf1;
+}
+#price-by-person {
+    display: block;
+    padding: 5% 10%;
+    font-weight: bolder;
+    color: #0c5460;
+}
+/*=========================
+choice region ends here 
+==========================*/
+
+#info-container {
+    width: 50em;
+    height: 19em;
+    float: inline-end ;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #75c9c8;
+}
+#info-title-container {
+    width: 100%;
+    height: 20%;
+    background-color: #d1ecf1;
+}
+#info-title {
+    display: block;
+    color: #0c5460;
+    font-size: 1.6em;
+    font-weight: 600;
+    padding: 3%;
+}
+input {
+    margin-bottom: 1em;
+    height: 2.5em;
+    resize: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 3px;
+}
+#input-container {
+    padding: 2% 3% 0% 3%; 
+}
+#email {
+    width: 98%;
+}
+#weeks {
+    width: 48.4%;
+}
+#amount-of-people {
+    width: 48.4%;
+}
+#info-button {
+    display: block;
+    margin: 0 auto;
+    width: 92%;
+    height: 15%;
+    border: 1px solid;
+    border-color: #17a2b8;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #17a2b8;
+    transition: .3s ease;
+}
+#info-button:hover {
+    color: #17a2b8;
+    border-color: #17a2b8;
+    background-color: white;
+}
+#button-link {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+#button-link:hover {
+    text-decoration: none;
+    color: #17a2b8;
+}
+/*=============================
+info region ends here 
+================================*/
+
+#gallery-container {
+    padding: 0% 0% 5% 9%;
+}
+.gallery-img {
+    display: inline-block;
+    margin: 1.5% 1.5% 4% 1.5%;
+    padding: 0.2%;
+    border: 1px solid;
+    border-color: lightgray;
+    width: 10em;
+    height: 6em;
+    transition: .3s ease;
+}
+.gallery-img:hover {
+    width: 10.5em;
+    height: 6.5em;
+}
+/*========================
+gallery region ends here 
+==========================*/
+
+footer {
+    width: 100%;
+    height: 4.6em;
+    text-align: center;
+    background-color: #75c9c8;
+    color: #6e8086;
+}
+footer:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+i {
+    padding: 0em 0.4em !important;
+}
+/*===========================
+footer region ends here
+================*/

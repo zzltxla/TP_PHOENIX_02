@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header {
+    background-image: url(img/caraibes1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+/*===============
+header region ends here 
+=================*/
+
+#container {
+    font-family: 'Montserrat', sans-serif; 
+}
+/*=======================
+container region ends here
+=========================*/
+
+#nav-text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-left: 15em;
+    font-size: 1em;;
+}
+.redirection-link {
+    color: black;
+}
+ul {
+    display: flex;
+    justify-content: first baseline;
+    gap: 2em;
+}
+.select {
+    padding: 1.5em 0em 1.5em 0em;
+    flex-direction: row;
+    float: right;
+    padding-left: 1.5em;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.select:hover {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+/*===================
+nav region ends here
+=====================*/
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+    width: 50%;
+    height: 45%;
+    color: #75c9c8;
+    background-color: white;
+    font-size: 1em;
+    border: 2px solid;
+    border-color: #75c9c8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+#button-link {
+    text-decoration: none;
+    color: #75c9c8;
+}
+button:hover {
+    background-color: #75c9c8;
+    color: white;
+}
+#button-link:hover {
+    color: white;
+}
+#mainbutton:not(button){
+    width: 100%;
+    height: 5em;
+    display: block;
+}
+/*====================
+button region ends here
+======================*/
+
+footer {
+    width: 100%;
+    height: 4.6em;
+    text-align: center;
+    background-color: #75c9c8;
+    color: #6e8086;
+}
+footer:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+i {
+    padding: 0em 0.4em !important;
+}
+

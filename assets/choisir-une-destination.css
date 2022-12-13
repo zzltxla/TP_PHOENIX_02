@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/*=================
+body region ends here
+====================*/
+
+header {
+    width: 100%;
+    height: 5em;
+    background-color: #75c9c8;
+}
+ul {
+    display: flex;
+    gap: 2em;
+}
+li {
+    padding-top: 2em;
+    flex-direction: row;
+    float: right;
+    transition: .3s ease;
+}
+li:hover {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.redirection-link {
+    color: black;
+}
+#phoenix-icon {
+    margin-top: 0.3em;
+}
+/*====================
+header region ends here
+======================*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+    max-width: 100%;
+    height: 25em;
+}
+#banner-img {
+    margin-top: 2em;
+    width: 100%;
+    height: 20em;
+}
+/*================
+banner region ends here
+==================*/
+
+#gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2em;
+    margin-bottom: 1.5em;
+}
+.gallery {
+    display: inline-block;
+    width: 30%;
+    height: 19em;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #75c9c8;
+    background-color: white;
+}
+.gallery-text {
+    white-space: pre-line;
+    padding: 0% 0% 3% 2% ;
+    float: left;
+    font-size: 0.8em;
+    line-height: 0.9rem;
+    text-align: justify;
+}
+.text-title {
+    width: min-content;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.gallery-img {
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+}
+/*============
+gallery region edns here
+================*/
+
+button {
+    margin: 1em 7.5em;
+    width: 18em;
+    height: 3em;
+    text-align: center;
+    color: #75c9c8;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: .3s ease;
+}
+.button-link {
+    text-decoration: none;
+    color: #75c9c8;
+}
+#albion-button {
+    display: block;
+    margin: 0 auto;
+}
+.button-link:hover {
+    color: white;
+}
+button:hover {
+    background-color: #75c9c8;
+    color: white;
+}
+/*=======================
+button region ends here
+=========================*/
+
+footer {
+    width: 100%;
+    height: 4.6em;
+    text-align: center;
+    background-color: #75c9c8;
+    color: #6e8086;
+}
+footer:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+i {
+    padding: 0em 0.4em !important;
+}
+/*===========================
+footer region ends here
+================*/
